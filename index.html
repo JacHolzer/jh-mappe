@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jacob Holzer – Portfolio</title>
 <meta name="description" content="Portfolio von Jacob Holzer – Fotografie, 3D, Konzepte und Film. HTBLuVA Salzburg-Itzling, Multimedia.">
@@ -161,6 +162,7 @@ section{padding:clamp(72px,11vw,150px) var(--gut)}
 .link:hover svg{translate:2px -2px}
 .link:active{translate:0 1px}
 footer{background:var(--ink);color:var(--muted);border-top:1px solid var(--line);font-size:14px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:24px var(--gut) 32px}
+footer .legal{flex-basis:100%;max-width:90ch;font-size:13px;line-height:1.5;color:var(--muted)}
 
 /* ---------- Lightbox ---------- */
 .lb{position:fixed;inset:0;z-index:100;background:#0D0F11;display:grid;grid-template-columns:minmax(0,1fr) 380px;opacity:0;pointer-events:none;transition:opacity .35s}
@@ -298,6 +300,7 @@ footer{background:var(--ink);color:var(--muted);border-top:1px solid var(--line)
 <footer>
   <span>© Jacob Holzer<span style="color:var(--acc)">.</span></span>
   <span>HTBLuVA Salzburg-Itzling · Multimedia</span>
+  <p class="legal">Offenlegung gemäß § 25 Mediengesetz: Jacob Holzer, Salzburg. Private Portfolio-Seite ohne Cookies, Tracking oder Formulare. Gehostet bei GitHub Pages (GitHub Inc.); beim Aufruf verarbeitet GitHub technisch nötige Zugriffsdaten wie die IP-Adresse.</p>
 </footer>
 
 <div class="lb" id="lb" role="dialog" aria-modal="true" aria-labelledby="lbTitle">
